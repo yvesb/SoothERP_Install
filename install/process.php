@@ -1,5 +1,5 @@
 <?php
-// "Installeur Sooth ERP" , BSD license, http://www.Sooth ERP.fr/
+// "Installeur Sooth ERP" , BSD license, http://www.sootherp.fr/
 // "Installeur Sooth ERP" makes use of "Spin.js" and "JQuery", both under MIT license
 // See README and LICENSE files.
 if ((isset($_POST['step'])) && (strlen(trim($_POST['step'])) > 0)) {

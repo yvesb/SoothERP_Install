@@ -25,13 +25,13 @@
 				<div class="block">
 					<div id="process_form">
 	  					<form name="process" method="post" action="">
-							<?php echo (is_writable(dirname(__DIR__)) && is_writable(__DIR__) && is_writable((dirname(__DIR__)."/index.php")))?"":"<span class=\"warning\">Le dossier racine de l'installeur, le fichier 'index.php' du même dossier et le sous-dossier 'install' doivent posséder des droits en écriture.<br /></span>"; ?>
+							<?php echo (is_writable(dirname(dirname(__FILE__))) && is_writable(dirname(__FILE__)) && is_writable((dirname(dirname(__FILE__))."/index.php")))?"":"<span class=\"warning\">Le dossier racine de l'installeur, le fichier 'index.php' du même dossier et le sous-dossier 'install' doivent posséder des droits en écriture.<br /></span>"; ?>
 							Cette étape va déployer les fichiers contenus dans les archives. <br />
 							Le chemin vers l'application finale sera le même que celui du présent dossier d'installation. <br />
 							Ce dossier pourra à tout moment être renomé en cas de nécessité. <br />
  	     					<br />
 							<input type="hidden" id="unzipped" value="false" />
-   		   					<input type="submit" name="submit" class="button1" id="submit_btn" value=" Continuer " <?php echo (is_writable(dirname(__DIR__)) && is_writable(__DIR__) && is_writable((dirname(__DIR__)."/index.php")))?"":"disabled=\"disabled\"" ?>/>
+							<input type="submit" name="submit" class="button1" id="submit_btn" value=" Continuer " <?php echo (is_writable(dirname(dirname(__FILE__))) && is_writable(dirname(__FILE__)) && is_writable((dirname(dirname(__FILE__))."/index.php")))?"":"disabled=\"disabled\"" ?>/>
 
   						</form>
 					</div>

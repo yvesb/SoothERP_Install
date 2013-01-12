@@ -27,7 +27,8 @@ https://github.com/fgnass/spin.js
 ===============================================================================
 PREREQUIS:
 
-Php 5.3, PDO, MySQL
+Php v5.2 min, 5.3 conseillée + extensions Zip et PDO.
+MySQL avec InnoDB
 
 ===============================================================================
 UTILISATION:
