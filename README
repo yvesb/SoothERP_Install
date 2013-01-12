@@ -9,7 +9,7 @@
 ===============================================================================
 LICENCE:
 
-Ce logiciel est délivré sous license BSD, consultez le fichier LICENCE.txt
+Ce logiciel est délivré sous license BSD, consultez le fichier LICENCE.
 
 -------------------------------------------------------------------------------
 ATTRIBUTION DES BIBLIOTHEQUES TIERCES:
@@ -34,7 +34,7 @@ MySQL avec InnoDB
 UTILISATION:
 
 
-A- ASSUREZ VOUS DE LA PRESENCE DES ARCHIVES NECESSAIRE A L'INSTALLATION
+A- ASSUREZ VOUS DE LA PRESENCE DES ARCHIVES NECESSAIRES A L'INSTALLATION
 
 L'installeur déploie les fichiers et la base de donnée nécessaire au 
 fonctionnement de Sooth ERP (https://github.com/yvesb/SoothERP).
