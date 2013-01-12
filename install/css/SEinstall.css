@@ -1,0 +1,146 @@
+﻿//"Installeur Sooth ERP" , BSD license, http://www.Sooth ERP.fr/
+// "Installeur Sooth ERP" makes use of "Spin.js" and "JQuery", both under MIT license
+// See README and LICENSE files.
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    -moz-font-feature-settings: normal;
+    -moz-font-language-override: normal;
+    -x-system-font: none;
+    font-family: normal Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1.7em;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+.pre {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+.h2text{
+position: relative;
+top: -7px;
+}
+
+#icon1, #icon2, #icon3, #icon4{
+position: relative;
+top: 4px;
+left: -10px;
+}
+
+.container {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50;
+    width: 800px;
+	background: url(../images/logo.png) no-repeat;
+	background-position: 560px 20px;
+
+}
+
+h1 {
+    color: #AAAAAA;
+    font-family: normal Georgia,'Times New Roman',Times,serif;
+    font-size: 4em;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: normal;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 0;
+    padding-top: 30px;
+    text-align: left;
+}
+
+.h1mini {
+position: relative;
+top: -15px;
+font-size: 16px;
+}
+
+h2.menuHeader {
+	margin: 5px 0 0 0;
+	height: 46px;	line-height: 46px;
+	width: 800px;
+	font-size: 2em;
+	font-weight: normal;
+	float: left;
+	color: #ccc;
+	text-decoration: none;
+	display: block;
+	padding: 0 0 0 15px;
+}
+
+h2.active {background-position: left bottom;
+bottom :10px;
+}
+
+.menuContainer {
+	margin: 0 0 0; padding: 0;
+	overflow: hidden;
+	font-size: 1.2em;
+	width: 798px;
+	clear: both;
+	background: #f0f0f0;
+	border: 1px solid #d6d6d6;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.padding {
+padding: 0 15px 0 0;
+}
+
+.menuContainer .block {
+	padding: 20px;
+}
+
+.my_spinner {
+position: relative;
+top: -30.5px;
+left:-391px;
+}
+
+.error {
+color: #FF2020;
+}
+
+.warning {
+font-weight: bold;
+color: #DD0000;
+}
+
+.great {
+font-weight: bold;
+color: #00BB00;
+}

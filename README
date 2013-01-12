@@ -1,0 +1,93 @@
+===============================================================================
+
+                            INSTALLEUR SOOTH ERP
+							 
+
+							 
+                  MERCI DE LIRE CES NOTES AVANT UTILISATION
+
+===============================================================================
+LICENCE:
+
+Ce logiciel est délivré sous license BSD, consultez le fichier LICENCE.txt
+
+-------------------------------------------------------------------------------
+ATTRIBUTION DES BIBLIOTHEQUES TIERCES:
+
+Ce logiciel ulise les bibliothèques tierces suivantes:
+
+- JQuery, sous licence MIT: 
+http://jquery.com/
+https://github.com/jquery/jquery
+
+- Spin.js, sous licence MIT:
+http://fgnass.github.com/spin.js/
+https://github.com/fgnass/spin.js
+
+===============================================================================
+PREREQUIS:
+
+Php 5.3, PDO, MySQL
+
+===============================================================================
+UTILISATION:
+
+
+A- ASSUREZ VOUS DE LA PRESENCE DES ARCHIVES NECESSAIRE A L'INSTALLATION
+
+L'installeur déploie les fichiers et la base de donnée nécessaire au 
+fonctionnement de Sooth ERP (https://github.com/yvesb/SoothERP).
+
+Ces fichiers sont inclus dans des archives zip, contenues dans le sous-dossier 
+"archives" de l'installeur. Si ces données sont déjà présentes dans le dossier 
+en question, vous pouvez directement passer au point B.
+
+Selon la provenance de l'installeur, ce dossier peut être vide.
+C'est typiquement le cas lors d'un téléchargement depuis Github. La version 
+de Sooth ERP installée dépendant des fichiers d'archives, ces derniers ne sont
+pas contenus dans le dépôt Git de l'installeur qui est indépendant des versions
+Sooth ERP déployées.
+
+Dans ce dernier cas (archives non présentes), il convient de placer deux 
+archives zip dans le sous dossier "archives":
+
+1/ 
+Une ARCHIVE ZIP contenant le fichier sql, à trouver sur le dépot Github
+du projet Sooth ERP (https://github.com/yvesb/SoothERP), sous le chemin:
+/src/sqlxxxx (où xxxx est le numéro de version)
+Cette archive doit être nommée "SoothERPxxxx.zip" (où xxxx est le numéro de
+version)
+
+2/ 
+Une ARCHIVE ZIP contenant les fichiers applicatifs, à trouver sur le dépot 
+Github du projet Sooth ERP (https://github.com/yvesb/SoothERP), sous le chemin:
+/src/xxxx (où xxxx est le numéro de version)
+Cette archive doit être nommée "xxxx.zip" (où xxxx est le numéro de
+version)
+
+DANS LES DEUX CAS, LES FICHIERS CONTENUS DANS L'ARCHIVE ZIP, DOIVENT APPARAITRE
+DIRECTEMENT A LA RACINE DE L'ARCHIVE (ET NON PAS DANS UN DOSSIER AU NOM DE
+l'ARCHIVE)
+
+
+B- INSTALLATION
+
+L'intsallation de l'ensemble des fichiers de Sooth ERP se fera à la racine du
+dossier de l'installeur. 
+Vous pouvez renommer ce dossier avant ou après installation sans autre 
+contrainte particulière.
+Une fois l'installation terminée, la page de connexion à Sooth ERP se fera en 
+pointant sur le même dossier.
+
+Pour lancer l'intallation, pointez le navigateur vers l'url correpondant à
+l'emplacement du dossier, puis suivez les intructions.
+
+
+C- ERREURS
+
+En cas d'erreur, un fichier erreur.log peut vous apporter des informations sur
+les erreurs rencontrées.
+Merci de détailler en retour les erreurs rencontrées afin de permettre au 
+projet d'évoluer.
+
+===============================================================================
